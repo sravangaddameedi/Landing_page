@@ -1,0 +1,234 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #e5f2ef;
+    color: #333;
+    line-height: 1.5;
+  }
+  
+  header {
+    background-color: #f5afaf;
+    padding: 10px;
+    color: black;
+  }
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #080a08;
+    text-decoration: none;
+    padding: 5px 10px;
+  }
+  
+  nav ul li a:hover {
+    background-color: #2bec62;
+    color: #333;
+  }
+  
+  nav ul ul {
+    display: none;
+    position: absolute;
+    background-color: #333;
+  }
+  
+  nav ul li:hover > ul {
+    display: inherit;
+  }
+  
+  nav ul ul li {
+    width: 200px;
+    float: none;
+    display: block;
+  }
+  
+  .intro {
+    background-color: #333;
+    color: #fff;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .intro h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .intro p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .shop-section {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .shop-section h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+  
+  .grid {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+  }
+  
+  .item {
+    text-align: center;
+    width: 300px;
+    box-shadow: #0b0909;
+  }
+  
+  .item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .item h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .item p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .buy-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 18px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.buy-button:hover {
+  background-color: #dc6cf8;
+  color: #110f0f ;
+  border:1px  solid black;
+}
+/*contact info*/
+
+.contact-section {
+  background-color: #fff;
+  padding: 50px;
+  text-align: center;
+}
+
+
+
+.contact-section form {
+  margin-top: 20px;
+}
+
+.contact-section input,
+.contact-section textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #333;
+}
+
+.contact-section button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  transition:all 0.3s ease, color 0.3s ease;
+}
+
+.contact-section button:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+
+
+
+
+.contact {
+  background-color: grey;
+  padding: 80px 0;
+}
+
+.heading {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.heading span {
+  color: #e74c3c;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-box {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea {
+  padding: 10px;
+  width: 300px;
+  border: 2px solid #0b0909;
+  border-radius: 4px;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+textarea {
+  width: 150px;
+  height: 50px;
+}
+
+input[type="submit"] {
+  padding: 10px 20px;
+  border: none;
+  background-color: #e74c3c;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+input[type="send message"]:hover {
+  background-color: #c0392b;
+}
+
+.item img {
+  border: 1px solid #333;
+}
